@@ -76,7 +76,7 @@ clip3.addEventListener("mouseout", function (e) {
 clip3.pause();
 })
 var audio = document.getElementById("tb2");
-audio.volume = 0.1;
+audio.volume = 0.4;
 </script>
 </p>
 <p style=" color: white;">
@@ -84,7 +84,7 @@ My alarm clock sounding in the other room:
 <p>
 <video src=
 "alarm_button.mp4"
-type="video/mp4" class="al"  loop style="border: none; width: 132px;">
+type="video/mp4" class="al" id="al1" loop style="border: none; width: 132px;">
 </video>
 </p>
 <script>
@@ -95,7 +95,7 @@ clip4.play();
 clip4.addEventListener("mouseout", function (e) {
 clip4.pause();
 })
-var audio = document.getElementById("tb2");
+var audio = document.getElementById("al1");
 audio.volume = 4;
 </script>
 
