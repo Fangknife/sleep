@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="crawler.js">
+    </script>
+    <!--this works best on headphones on 20% volume. -->
+</head>
+<style>
+body{ 
+background-color: black;
+}
+p{
+font-family: Harlow Solid Italic;
+color: white;
+font-size: 16px;
+}
+
+
+</style>
+
+<body>
+<p>
+
+
+<br>The disorder is called "Non-24-hour sleep–wake disorder".
+<br>Also called Free-running sleep disorder.
+<br>Hover to run:
+</p>
+  <p>
+<div class="marquee" id="mycrawler2">
+    <img src="d:\\sleep cycle\\all_layers_line_10px_left.jpg" alt="lineL" width="22333" height="21">
+    <img src="d:\\sleep cycle\\all_layers_line_10px_center.jpg" alt="lineC" width="22333" height="21">
+    <img src="d:\\sleep cycle\\all_layers_line_10px_right.jpg" alt="lineR" width="22333" height="21">
+        </div>
+    <script type="text/javascript">
+    marqueeInit({
+    uniqueid: 'mycrawler2',
+    style: {
+        'padding': '0px',
+        'width': '2000px',
+        'height': '21px',
+        },
+        inc: 400, //speed - pixel increment for each iteration of this marquee's movement
+        mouse: 'cursor driven', 
+        moveatleast: 2,
+        neutral: 80,
+        savedirection: true,
+        random: false,
+        direction: 'left',
+        noAddedSpace: true,
+        });
+</script>
+<p style=" color: white;">
+
+
+<br>
+<br>This is the noise made when read as a Variable Density audio track, like that on a running film strip:
+<br>Hover to play
+<div>
+<video src=
+"d:\\sleep cycle\\415hz_no_pitch_correct_no_static_crop.mp4"
+type="video/mp4" class="vid1" loop style="border: none;  width: 500px;">
+</video>
+<script>
+let clip = document.querySelector(".vid1")
+clip.addEventListener("mouseover", function (e) {
+clip.play();
+})
+clip.addEventListener("mouseout", function (e) {
+clip.pause();
+})
+</script>
+</div>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
